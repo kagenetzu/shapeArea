@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="482.0" prefWidth="562.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="a1" layoutX="382.0" layoutY="91.0" prefHeight="26.0" prefWidth="150.0" text="3" />
+      <TextField fx:id="b" layoutX="382.0" layoutY="258.0" text="3" />
+      <TextField fx:id="a2" layoutX="382.0" layoutY="169.0" text="3" />
+      <Canvas fx:id="mainCanvas" height="399.0" layoutX="27.0" layoutY="46.0" width="339.0" />
+      <Label layoutX="434.0" layoutY="65.0" text="Катет" />
+      <Label layoutX="425.0" layoutY="232.0" prefHeight="18.0" prefWidth="74.0" text="Основание" />
+      <Label layoutX="426.0" layoutY="141.0" prefHeight="18.0" prefWidth="46.0" text="Высота" />
+      <Slider fx:id="sldZoom" layoutX="377.0" layoutY="330.0" max="200.0" min="10.0" prefHeight="36.0" prefWidth="150.0" showTickLabels="true" showTickMarks="true" value="100.0" />
+      <Label layoutX="427.0" layoutY="310.0" prefHeight="18.0" prefWidth="45.0" text="Маштаб" />
+      <Label layoutX="426.0" layoutY="388.0" text="Площадь" />
+      <Text fx:id="areaT" layoutX="424.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="65.5999633789063" />
+   </children>
+</AnchorPane>
